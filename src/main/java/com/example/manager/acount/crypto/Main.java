@@ -11,9 +11,9 @@ public class Main {
     public static void main(String[] args) {
         CryptoExchange exchange = new CryptoExchange();
 
-        Currency bitcoin = new Currency(NameCrypto.BTC, 50000);
-        Currency ethereum = new Currency(NameCrypto.ETH, 3000);
-        Currency litecoin = new Currency(NameCrypto.LTC, 150);
+        Currency bitcoin = new Currency(NameCrypto.BTC, 50000.0);
+        Currency ethereum = new Currency(NameCrypto.ETH, 30000.);
+        Currency litecoin = new Currency(NameCrypto.LTC, 150.0);
 
         exchange.addCryptoToList(bitcoin);
         exchange.addCryptoToList(ethereum);
